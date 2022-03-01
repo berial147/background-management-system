@@ -11,7 +11,7 @@ const lxRequest = new LXRequest({
   interceptors: {
     requestInterceptor: (config) => {
       // 携带token的拦截
-      // 从缓存中取到token
+      // 从缓存中取到token console
       const token = localCache.getCache('token')
       if (token) {
         // headers请求头 Authorization授权
