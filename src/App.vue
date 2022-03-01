@@ -16,7 +16,7 @@ import zhCn from 'element-plus/lib/locale/lang/zh-cn'
 // import { ElButton } from 'element-plus'
 // import 'element-plus/theme-chalk/base.css'
 // import 'element-plus/theme-chalk/el-button.css'
-
+// console
 export default defineComponent({
   name: 'App',
   components: {
